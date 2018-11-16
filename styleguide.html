@@ -3,18 +3,134 @@
 
 <head>
 
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Styleguide</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Styleguide</title>
 
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" href="css/fonts.css">
-	<link rel="stylesheet" href="css/flexbox.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/flexbox.css">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Bai+Jamjuree|Montserrat" rel="stylesheet">
+    <!-- <link href="fonts/BaiJamjuree-Medium.ttf" rel="stylesheet"> -->
 
 </head>
-<body>
 
-    
+<body class="main-bg">
+    <header>
+        <h1>Sabrina's Portfolio</h1>
+    </header>
+    <nav class="main-nav">
+        <a href="home.html">HOME</a>
+        <a href="projects.html">PROJECTS</a>
+        <a href="about.html">ABOUT</a>
+        <a href="styleguide.html">STYLEGUIDE</a>
+    </nav>
+
+
+    <!-- INTERACTIVE ELEMENTS -->
+    <div class="item-bg">
+        <section>
+            <article>
+                <h2>In Text Links</h2>
+
+                <h3>CSS selector:</h3>
+                <p>.intext-link</p>
+
+                <h3>Sample code:</h3>
+                <code> &lt;a class="intext-link" href="#"&gt; In text link &lt;/a&gt;</code>
+
+                <h3>Rendered element:</h3>
+                <a class="intext-link" href="#"> In text link</a>
+            </article>
+        </section>
+
+
+        <!-- NAVIGATION BUTTONS -->
+        <section>
+            <article>
+                <h2>Main Navigation</h2>
+                <h3>CSS selector:</h3>
+                <p>.main-nav</p>
+                <h3>Sample code:</h3>
+                <p>&lt;a href="#" class="main-nav&gt;home&lt;a&gt;</p>
+                <h3>Rendered element:</h3>
+                <a href="#" class="main-nav">home</a>
+            </article>
+        </section>
+
+        <!--TEXT ELEMENTS -->
+
+        <section>
+            <article>
+                <h2>Heading</h2>
+                <h3>CSS selector:</h3>
+                <p>h1</p>
+                <p>h2</p>
+                <p>h3</p>
+                <p>h4</p>
+                <h3>Sample code:</h3>
+                <code>&lt;h1&gt;heading1&lt;/h1&gt;<br>
+                &lt;h2&gt;heading2&lt;/h2&gt;<br>
+                &lt;h3&gt;heading3&lt;/h3&gt;<br>
+                &lt;h4&gt;heading4&lt;/h4&gt;<br>
+            </code>
+                <h3>Rendered element:</h3>
+                <h1>heading1</h1>
+                <h2>heading2</h2>
+                <h3>heading3</h3>
+                <h4>heading4</h4>
+            </article>
+            <article>
+                <h2>Paragraph</h2>
+                <h3>CSS selector:</h3>
+                <p>p</p>
+                <h3>Sample code:</h3>
+                <code>&lt;p&gt; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam feugiat sagittis erat a cursus. Suspendisse
+                    dolor massa, commodo in fermentum id, scelerisque in augue. Nullam ullamcorper ligula in augue tempor,
+                    sedtincidunt ligula aliquet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                    inceptos himenaeos. Namnibh felis, elementum sed luctus at, pharetra non lorem. Morbi ut ipsum dolor.
+                    Vivamus pretium, urna acporta tristique, eros sem malesuada turpis, a aliquet risus nisl in felis.
+                    Donec sollicitudin dui id fringilla tincidunt. Sed eu quam tincidunt, feugiat urna eu, posuere neque.
+                    Cras ac condimentum nunc, sed pellentesque lorem. Sed sed est risus.&lt;/p&gt;</code>
+                <h3>Rendered element:</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam feugiat sagittis erat a cursus.
+                    Suspendisse dolor massa, commodo in fermentum id, scelerisque in augue. Nullam ullamcorper ligula
+                    in augue tempor, sedtincidunt ligula aliquet. Class aptent taciti sociosqu ad litora torquent per
+                    conubia nostra, per inceptos himenaeos. Namnibh felis, elementum sed luctus at, pharetra non lorem.
+                    Morbi ut ipsum dolor. Vivamus pretium, urna acporta tristique, eros sem malesuada turpis, a aliquet
+                    risus nisl in felis. Donec sollicitudin dui id fringilla tincidunt. Sed eu quam tincidunt, feugiat
+                    urna eu, posuere neque. Cras ac condimentum nunc, sed pellentesque lorem. Sed sed est risus.
+                </p>
+            </article>
+        </section>
+
+        <!-- IMAGES -->
+        <section>
+            <article>
+                <h2>Images</h2>
+                <h2>Banner Image</h2>
+                <h3>CSS selector:</h3>
+                <p>.banner-img</p>
+                <h3>Sample code:</h3>
+                <p>&lt;img href="#" alt="sample image"&gt
+                <h3>Rendered element:</h3>
+                <img class="banner-img" src="img/banner-img.jpg" alt="banner">
+            </article>
+                <article>
+                        <h2>Banner Image</h2>
+                        <h3>CSS selector:</h3>
+                        <p>.banner-img</p>
+                        <h3>Sample code:</h3>
+                        <p>&lt;img href="#" alt="sample image"&gt
+                        <h3>Rendered element:</h3>
+                        <img class="banner-img" src="img/banner-img.jpg" alt="banner">
+                    </article>
+        </section>
+
+        <!-- FORM ELEMENTS -->
+    </div>
 </body>
+
 </html>
