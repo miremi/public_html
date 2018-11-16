@@ -1,0 +1,37 @@
+/* BASIC ELEMENTS*/
+
+/* Headings */
+
+h1 {
+    color: white;
+    font-size: 2.5em;
+}
+
+h2 {}
+
+h3 {}
+
+p {}
+
+body {}
+
+footer {}
+
+/* bg elements */
+.main-bg {
+    background: #000000;
+}
+
+.item-bg{
+    background: #e3e7ee;
+}
+
+/*NAVIGATION BUTTONS */
+
+/* LINKS */
+
+/* STYLEGUIDE */
+
+section {
+
+}
